@@ -7,6 +7,7 @@ import os
 from setuptools import setup, find_packages
 
 
+
 def get_version():
     basedir = os.path.dirname(__file__)
     with open(os.path.join(basedir, 'rq/version.py')) as f:
